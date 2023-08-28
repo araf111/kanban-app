@@ -24,7 +24,7 @@ const Sidebar = () => {
         const res = await boardApi.getAll()
         dispatch(setBoards(res))
       } catch (err) {
-        alert(err)
+        console.log(err)
       }
     }
     getBoards()
@@ -56,7 +56,7 @@ const Sidebar = () => {
     try {
       await boardApi.updatePositoin({ boards: newList })
     } catch (err) {
-      alert(err)
+      console.log(err)
     }
   }
 
@@ -67,7 +67,7 @@ const Sidebar = () => {
       dispatch(setBoards(newList))
       navigate(`/boards/${res.id}`)
     } catch (err) {
-      alert(err)
+      console.log(err)
     }
   }
 

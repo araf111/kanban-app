@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { Outlet, useNavigate } from 'react-router-dom'
 import { setUser } from '../../redux/features/userSlice'
@@ -8,7 +8,6 @@ import Sidebar from '../common/Sidebar'
 const AppLayout = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
-  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const checkAuth = async () => {
@@ -18,10 +17,10 @@ const AppLayout = () => {
       } else {
         // save user
         dispatch(setUser(user))
-        setLoading(false)
       }
     }
-    checkAuth()
+    checkAuth();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [navigate])
 
   return (
