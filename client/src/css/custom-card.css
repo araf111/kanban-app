@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.newcard{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
