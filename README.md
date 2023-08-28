@@ -9,7 +9,7 @@ https://dainty-frangipane-27d5be.netlify.app/login
 # Server Part Run
 
     - First Copy Repository
-    - cd to serve
+    - cd to server
     - create .env file
     - connect DB string
     - npm run build
