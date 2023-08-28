@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "npm i"
+    "dev": "nodemon server.js",
+    "build": "npm i"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
