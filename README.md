@@ -15,7 +15,7 @@ https://dainty-frangipane-27d5be.netlify.app/login
     - npm run build
     - npm run dev
 
-# Server Part Run
+# Front Part Run
 
     - First Copy Repository
     - cd to client
