@@ -12,15 +12,15 @@ https://dainty-frangipane-27d5be.netlify.app/login
     - cd to server
     - create .env file
     - connect DB string
-    - npm run build
+    - npm install
     - npm run dev
 
 # Front Part Run
 
     - First Copy Repository
     - cd to client
-    - npm run build
-    - npm run dev
+    - npm install
+    - npm run start
 
 # Reference
 
